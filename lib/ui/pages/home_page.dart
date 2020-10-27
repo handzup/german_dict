@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:german_dict/ui/widgets/drawer.dart';
+import '../widgets/drawer.dart';
 
 import '../../core/theme.dart';
 import '../../core/theme_controller.dart';
@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage>
     return Scaffold(
         key: _scaffoldKey,
         drawer: MyDrawer(),
-        backgroundColor: AppTheme.red,
+        backgroundColor: Theme.of(context).primaryColor,
         appBar: AppBar(
           elevation: 0,
           toolbarHeight: 40,
@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage>
         body: Stack(
           children: [
             PageView(
-              physics: ScrollPhysics(),
+              physics: AlwaysScrollableScrollPhysics(),
               controller: _pageController,
               onPageChanged: (index) {
                 print(index);
@@ -78,6 +78,8 @@ class _HomePageState extends State<HomePage>
           showElevation: true,
           itemCornerRadius: 12,
           containerHeight: 56,
+          backgroundColor:
+              Theme.of(context).bottomNavigationBarTheme.backgroundColor,
           curve: Curves.linear,
           onItemSelected: (index) => setState(() {
             _currentIndex = index;

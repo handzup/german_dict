@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:german_dict/core/theme.dart';
+import '../../core/theme.dart';
 
 class CustomAnimatedIcon extends StatefulWidget {
   @override
