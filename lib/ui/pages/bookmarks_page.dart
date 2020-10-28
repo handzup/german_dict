@@ -47,7 +47,6 @@ class BookmarkPage extends StatelessWidget {
                             itemCount: ln.length,
                             itemBuilder: (context, index) {
                               return CustomListTile(
-                                index: index,
                                 lemma: ln[index],
                               );
                             });

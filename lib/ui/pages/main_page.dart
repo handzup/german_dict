@@ -76,7 +76,6 @@ class _MainPageState extends State<MainPage> {
                         itemBuilder: (context, index) {
                           Lemma item = box.getAt(index);
                           return CustomListTile(
-                            index: index,
                             lemma: item,
                           );
                         }),

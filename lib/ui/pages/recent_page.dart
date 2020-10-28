@@ -1,7 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:german_dict/domain/lemma.dart';
 import 'package:german_dict/ui/widgets/list_tile.dart';
+import 'package:hive/hive.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
 class RecentPage extends StatelessWidget {
+  List<Lemma> reverse(Box box) {
+    List<Lemma> list = <Lemma>[];
+    for (var i = 0; i < box.length; i++) {
+      list.add(box.getAt(i));
+    }
+    return list.reversed.toList();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -26,14 +37,24 @@ class RecentPage extends StatelessWidget {
                       child: Text('Some text'),
                     ),
                     Expanded(
-                      child: ListView.builder(
-                          physics: ClampingScrollPhysics(),
-                          padding: EdgeInsets.only(top: 10.0, bottom: 55),
-                          itemCount: 20,
-                          itemBuilder: (context, index) {
-                            return CustomListTile(index: index);
-                          }),
-                    ),
+                        child: ValueListenableBuilder(
+                      valueListenable: Hive.box('history').listenable(),
+                      builder: (context, Box box, child) {
+                        List<Lemma> ln = reverse(box);
+                        return ListView.builder(
+                            physics: ClampingScrollPhysics(),
+                            padding: EdgeInsets.only(top: 10.0, bottom: 55),
+                            itemCount: ln.length,
+                            itemBuilder: (context, index) {
+                              return CustomListTile(
+                                lemma: ln[index],
+                              );
+                            });
+                      },
+                      child: Center(
+                        child: Text('Loading'),
+                      ),
+                    )),
                   ],
                 ),
               ),

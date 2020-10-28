@@ -46,4 +46,10 @@ class HiveWrapper extends GetxController {
       await openBox.put(i.lemma.hashCode, i);
     });
   }
+
+  writeToBox({Lemma item, String name}) async {
+    final openBox = await Hive.openBox(name);
+
+    await openBox.put(openBox.length, item);
+  }
 }

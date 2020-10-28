@@ -21,6 +21,7 @@ void main() async {
   Hive.registerAdapter(LemmaAdapter());
   await initServices();
   await Hive.openBox('lemma');
+  await Hive.openBox('history');
   runApp(MyApp());
 }
 

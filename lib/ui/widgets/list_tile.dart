@@ -4,10 +4,8 @@ import 'package:german_dict/ui/widgets/animated_icon.dart';
 import 'package:get/get.dart';
 
 class CustomListTile extends StatelessWidget {
-  final int index;
   final Lemma lemma;
-  const CustomListTile({Key key, @required this.index, @required this.lemma})
-      : super(key: key);
+  const CustomListTile({Key key, @required this.lemma}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -26,7 +24,7 @@ class CustomListTile extends StatelessWidget {
         child: ListTile(
             onTap: () => Get.toNamed('/details', arguments: lemma),
             trailing: IconButton(
-              onPressed: () => print('book $index'),
+              onPressed: () => print('book '),
               icon: CustomAnimatedIcon(
                 index: lemma.lemma.hashCode,
               ),
