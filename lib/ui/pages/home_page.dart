@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:german_dict/core/test.dart';
+import 'package:get/get.dart';
 import '../widgets/drawer.dart';
 
 import '../../core/theme.dart';

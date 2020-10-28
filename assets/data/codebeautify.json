@@ -1,0 +1,170 @@
+﻿[
+	{
+		"lemma": "a- ",
+		"synonym": "un-",
+		"description": "kammahsul o‘zlashma prefiks <grek.>",
+		"meaning": "o‘zi bilan birikib kelgan sifatning antonimi, qarama-qarshi ma’nosini bildiradi",
+		"examples": " ahistorisch <eine Betrachtungsweise> notarixiy, tarixiy emas □ historisch, alogisch <das Denken> mantiqsiz, mazmunsiz □ logisch, amusisch <ein Mensch>  san’atni tushunmaydigan/anglamaydigan; san’atga qobiliyatsiz □ musisch, anormal <Zustände> nonormal, anormal □ normal, asymmetrisch <eine Figur> asimmetrik, nosimmetrik, simmemetriyasiz □ symmetrisch",
+		"annotation": "|| Izoh: bu prefiks abnorm noto‘g‘ri, nonormal so‘zida ab- shaklida hamda anorganisch noorganik, jonsiz so‘zida an- shaklida keladi."
+	},
+	{
+		"lemma": "ab- ",
+		"description": "[ar-], t va z dan oldin abs- [aps-], mahsulsiz o‘zlashma prefiks <lot.>, ko‘p ma’noli",
+		"meaning": "sifatlarga o‘zgarish, shuningdek, noto‘g‘rilik ma’nosini beradi; (ba’zida o‘zakda tovush o‘zgarishi sodir bo‘ladi)",
+		"examples": "abnorm 1) noto‘g‘ri, qoida (me’yor)dan chetga chiquvchi, g‘ayritabiy 2) xunuk, og‘riqli 3) so‘zlashuv uslubiga xos. g‘ayrioddiy, ulkan □ normal, abnormal so‘zlashuv uslubiga xos. noto‘g‘ri, me’yor (qoida)lardan chetga chiquvchi, g‘ayritabiiy □ normal, abstrakt mavhum, umumiy tarzdagi, konkret bo‘lmagan, abstrakt □ abstrahieren "
+	},
+	{
+		"lemma": "-a·bel ",
+		"synonym": "-bar",
+		"description": "fe’llardan (asosan –ieren bilan tugagan) keyin qo‘shiladi, urg‘uli, kammahsul o‘zlashma suffiks <lot. -fr.>",
+		"meaning": "nimadir mumkin, imkonli yoki kim/nimadir biror narsa uchun yaroqliligini ifodalaydi",
+		"examples": "akzeptabel maqbul, ma’qul □ Akzept n, deklinabel turlanuvchi ≈ deklinierbar ↔ indeklinabel <ein Wort> turlanmaydigan, transportabel <ein Fernsehapparat> ko‘chma, ko‘chiriladigan □ Transport m, praktikabel <eine Lösung, eine Methode> amaliy, amalga oshirsa bo‘ladigan □ Praktik f, reparabel tuzatib (to‘g‘irlab) bo‘ladigan ≈  reparierbar ↔ irreparabel <ein Schaden>",
+		"annotation": "|| Izoh: der Schaden ist irreparabel ≈ ein irreparabler Schaden"
+	},
+	{
+		"lemma": "a·ber- ",
+		"description": "mahsulsiz yarimprefiks",
+		"meaning": "o‘zakdan anglashilgan sifat mazmuniga salbiy (baho berish) ma’noni yuklaydi",
+		"examples": "aberklug ayyor, mug‘ombir; kinoyaviy. haddan ortiq/o‘ta aqlli □ klug, aberweise sinchkov, har narsani bilishga qiziquvchi, surishtiraveradigan, o‘ziga bino qo‘ygan, manman □ weise, aberwitzig bad. beaql,  esi  yo‘q,  tentak, jinni, ko‘ngliga kelganini  qilaveradigan,  bema’ni  (ahmoqona)  ish tutadigan;  ahmoqona, telba-teskari □ witzig"
+	},
+	{
+		"lemma": "ab·grund- ",
+		"description": "['apgrunt-] kammahsul yarimprefiks",
+		"meaning": "o‘zi birikkan sifat (ta’sirchan, his-tuyg‘uli) ma’nosini kuchaytiradi, orttiradi",
+		"examples": "abgrundhäßlich o‘ta xunuk, badbashara □ häßlich, abgrundtief bad. tagsiz, tubsiz; o‘ta chuqur □ tief"
+	},
+	{
+		"lemma": "ad- ",
+		"description": "[at-] kamunum o‘zlashma prefiks <lot.>",
+		"meaning": "birikib kelgan sifatlarga biror narsa bilan bog‘liq (munosabatda/aloqada) bo‘lish ma’nosini beradi",
+		"examples": "adnominal gram. ot (ism)larga oid, ular bilan  bog‘liq, ot (ism) ... □ nominal, adverbal gram. fe’llarga oid, ular bilan bog‘liq, fe’l .. □ verbal, adäquat adekvat, muqobil, mos, loyiq"
+	},
+	{
+		"lemma": "ae·ro- ",
+		"description": "[aero-] kammahsul o‘zlashma prefiks <grek.>, o‘zbek tilidagi aero-, havo- birligiga mos keladi",
+		"meaning": "terminologik leksekaga oid o‘zlashma sifatlarga birikib havo, aviatsiya bilan bog‘liq ma’noni ifodalaydi",
+		"examples": "aerodynamisch aerodinamik □ dynamisch, aerostatisch aerostatikaga oid, aerostatik ... □ statisch"
+	},
+	{
+		"lemma": "af·fen- ",
+		"description": "['afen-] mahsulsiz yarimprefiks",
+		"meaning": "o‘zi birikkan sifat (ta’sirchan, his-tuyg‘uli) ma’nosini kuchaytiradi, orttiradi",
+		"examples": "affenjung so‘zlashuv uslubiga xos. juda yosh □ jung"
+	},
+	{
+		"lemma": "ag·ro- ",
+		"description": "mahsulsiz o‘zlashma prefiks <lot.>, o‘zbek tilidagi agro- ga to‘g‘ri keladi",
+		"meaning": "o‘zlashma terminlar oldidan kelib, ularga qishloq xo‘jaligiga oid, u bilan bog‘liqlik ma’nosini bldiradi",
+		"examples": "agrotechnisch agrotexnik □ technisch"
+	},
+	{
+		"lemma": "-al, -ial ",
+		"description": "sermahsul o‘zlashma suffiks, ko‘p ma’noli <lot.-fr.>, ko‘p ma’noli ",
+		"meaning": "1. kim/nimagadir tegishli, qarashli yoki u bilan aloqador/bog‘liqlikni ifodalaydi",
+		"examples": "direktorial direktorga oid, direktor ... □ Direktor t, formal rasmiy, qonunga muvofiq □ Form f, gouvernemental (fr.) [guvern(s)ma'ta:l] esk. 1) hukumatga oid, hukumat ... 2) guberniyaga oid, qarashli; guberniya ..., kontinental kontinentga oid, kontinental, qit’aga oid □ Kontinent t, ministerial ministrga va ministrlikka oid; ministr...; ministrlik...; □ Minister m, national 1) milliy 2) milliy, davlatga oid □ Nation f, museal muzeyga oid □ Museum"
+	},
+	{
+		"meaning": "2. insonni tasvirlashda o‘zakdan anglashilgan xulq-atvor, sifatga egalikni bildiradi",
+		"examples": "banal bemaza, bemani, didsiz, siyqasi (rasvosi) chikqan, eskirgan, maza-matrasi qolmagan, tuturiqsiz, brutal 1) qupol; hissiz, rahmsiz, zolim 2) zo‘rlik (zo‘ravonlik) bilan qilingan, amalga oshirilgan, majburiy, zo‘raki"
+	},
+	{
+		"meaning": "3. o‘zlashma ot o‘zagidan anglashilgan ma’noga o‘xshashlik, mutanosiblik ma’nosini bildiradi (ba’zan oxirgi unli o‘zgarishi mumkin)",
+		"examples": "kolossal 1) ulkan, hashamatli, juda katta 2) so‘zlashuv uslubiga xos. boshqalarga o‘xshamagan, boshqalardan farq qiladigan, boshqacha, alomat □ Koloß t, monumental monumental, hashamatli, mahobatli, ulug‘vor □ Monument p, pyramidal so‘zlashuv uslubiga xos. ulkan, bahaybat; haddan tashqari, odatdan tashqari □ Pyramide f"
+	},
+	{
+		"meaning": "4. nima bilandir aloqadorliq, bog‘liqlikni ifodalaydi (ba’zan oxirgi unli o‘zgarishi mumkin)",
+		"examples": "axial o‘qqa oid; o‘q bo‘ylab yo‘nalgan, bo‘ylama...; o‘q..., simmetrik □ Achse f, horizontal gorizontal, ufqiy, yotiq □ Horizont t, vertikal vertikal yo‘nalishdagi, vertikal; tik"
+	},
+	{
+		"lemma": "all- ",
+		"description": "darajasiz, kammahsul yarimprefiks, ko‘p ma’noli",
+		"meaning": "1. nimadir har doim aynan bir aytilgan vaqtda sodir bo‘lishini ifodalaydi",
+		"examples": "allabendlich <der Spaziergang> har kuni kechqurun (kechqurunlari) bo‘ladigan, har kechqurungi □ abendlich, alljährlich <die Festspiele, ein Ereignis> har yilgi, yilda bir marta bo‘ladigan (o‘tkaziladigan), yillik □ jährlich, allsonntäglich <der Besuch> yakshanba kuniga oid; yakshanba kuni bo‘lgan (bo‘ladigan), yakshanba kungi; yakshanba... □ sonntäglich, alltäglich har kungi, har kuni bo‘ladigan (qilinadigan), kundalik □ täglich"
+	},
+	{
+		"meaning": "2. hamma, butun(lay), to‘liq, umum(an)",
+		"examples": "allbekannt <ein Politiker> hammaga ma’lum bo‘lgan, hamma biladigan □ bekannt, allgewaltig <ein Herrscher> hamma/har narsaga qodir, qudratli, kuchli □ gewaltig, allmächtig <Gott> hamma/har narsaga qodir; har narsaga kuchi, qudrati yetadigan □ mächtig"
+	},
+	{
+		"lemma": "al·ler- ",
+		"description": "urg‘uli, sermahsul yarimprefiks, dealiktik so‘zlashuv uslubiga xos",
+		"meaning": "orttirma daraja mazmunini yanada kuchaytirish/orttirish uchun ishlatiladi",
+		"examples": "allerbest- eng yaxshi □ best (gut), allerhöchstens boshqa iloji topilmay qolganda; juda bo‘lmaydigan bo‘lsa, juda bo‘lmasa □ höchstens (hoch), allerletzt- eng oxirida, eng so‘nggida □ letzt, allerliebst- eng sevimli, o‘ta suyukli □ liebst (lieb), allerschlimmst- eng yomon □ schlimmst (schlimm), allerschönst- eng/o‘ta chiroyli/kelishgan □ schönst (schön), allerspätestens eng kechi bilan, o‘ta kech qolganda □ spätestens (spät)"
+	},
+	{
+		"lemma": "al·lo-",
+		"description": "unlilar oldidan all- [al-] shaklida, mahsulsiz o‘zlashma prefiks <grek.>",
+		"meaning": "sifatlarga o‘zgaruvchanlik, xilma-xillik ma’nosini beradi",
+		"examples": "allochromatisch [-k-] alloxromatik □ chromatisch, allochton geol. alloxtonnik □ autochton, allogam kzndalang changlanadigan/urug‘lanadigan"
+	},
+	{
+		"lemma": "all·zu-",
+		"description": "sermahsul yarimprefiks",
+		"meaning": "(ayniqsa) juda deya tarjima qilinadi",
+		"examples": "allzufrüh juda erta □ früh, allzugern (juda) bajanu dil □ gern, allzusehr o‘ta □ sehr, allzuviel juda ko‘p □ viel, allzuwenig juda kam/oz □ wenig"
+	},
+	{
+		"lemma": "аn- ",
+		"description": "mahsulsiz yarimprefiks",
+		"meaning": "o‘zakdan anglashilgan ma’noni ma’lum darajada kengaytiradi, aniqlashtiradi",
+		"examples": "angenehm 1) yoqimli, xush keladigan 2) istalgan, tilangan, matlub, ma’qul, maqbul; kerak □ genehm"
+	},
+	{
+		"lemma": "-ant ",
+		"description": "chastotali o‘zlashma suffiks <lot.-fr>, ko‘p ma’noli",
+		"meaning": "1. inson xarakterini tasniflashda o‘zakdan anglashilgan belgining mavjudligini bildiradi",
+		"examples": "arrogant manman, dimog‘dor, dimog‘i (kibr-havosi) baland, mag‘rur, takabbur, kekkaygan □ Arroganz, elegant zebo, bashang, orasta; kelishgan, xushbichim □ Eleganz f, konziliant xushmuomala, muomalali, muloyim, sermulozamat, sertakalluf, takallufli, tolerant chiqishib keta oladigan, sabr-toqat qiladigan, sabr-toqatli □ Toleranz f"
+	},
+	{
+		"meaning": "2. o‘zakdan anglashilgan ma’noga egalikni bildiradi",
+		"examples": "diskrepant og‘uvchi, chetga chiquvchi, farqlanuvchi (xislat) □  Diskrepanz f, frappant hayratda qoldiradigan, ajoyib, aqlni shoshiradigan, nihoyatda ajoyib voqea (hodisa) □ frappieren vt, redundant keragidan ortiq, ko‘p, ortiqcha □ Redundanz f, re­levant muhim, ahamiyatli; dolzarb □ Relevanz f, vakant vakant, bo‘sh (hech kim band qilmagan) □ Vakanz f"
+	},
+	{
+		"lemma": "an·ti- ",
+		"description": "urg‘uli va urg‘usiz, (qisman) sermahsul o‘zlashma prefiks <grek.>",
+		"meaning": "kim/nimagadir qarshi yo‘naltirilgan, kim/nimanidir aksi",
+		"examples": "antiautoritär <eine Erziehung> avtoritar (tizim)ga qarshi, antiavtoritar □ autoritär, antidemokratisch <Tendenzen, Äußerungen> demokratiyaga qarshi; demokratiyaga qarshi qaratilgan, antidemokratik □ demokratisch, antifaschistisch <der Widerstand, eine Politik> fashizmga qarshi qaratilgan, antifashist □ faschistisch, antiimperialistisch <eine Haltung> imperializmga qarshi; imperializmga qarshi qaratilgan, antiimperialistik □ imperialistisch, antisemitisch <eine Gesinnung> antisemitlarga va antisemitizmga oid, antisemitizm ruhidagi, antisemitik □ semitisch"
+	},
+	{
+		"lemma": "-аr ",
+		"description": "mahsulsiz o‘zlashma suffiks <lot.-fr.>",
+		"meaning": "o‘zakdan anglashilgan ma’noni jonsiz predmet va hodisalarda mavjudligini ifodalaydi (asosan, terminlarda)",
+		"examples": "atomar 1) xim., fiz. yadroga (atom yadrosiga) oid 2) yadroviy, atomga oid □ Atom p, insular orolga oid; orolda bo‘lgan (bo‘ladigan), orolda joylashgan; oroldagi; orol... a Insel f, korpuskular fiz. korpuskulaga oid; korpuskulyar □ Korpuskel p, lunar astr, oyga oid; oy... □ Luna f, molekular molekulaga oid; molekulyar; molekula... □ Molekül p, auxiliar (eskirgan shakli. auxiliär) yordamchi, ko‘makchi, velar fon. til orqa □ Velum <lot.> p"
+	},
+	{
+		"lemma": "-är ",
+		"description": "[-'ɛ: r] mahsulli o‘zlashma suffiks <lot.-fr.>, ko‘p ma’noli",
+		"meaning": "1. nimgadir tegishli, qarashli ekanlik ma’nosini ifodalaydi (ba’zan tovush o‘zgarishi sodir bo‘lishi mumkin)",
+		"examples": "muskulär muskul(lar)ga, mushaklarga oid; muskul...; mushak... □ Muskel t, reaktionär 1) reaksion 2) reaksiya chaqiruvchi □ Reaktion f,revolutionär revolyutsion, inqilobiy, revolyutsion (inqilobiy) ruhdagi, revolyutsion (inqilobiy) ruh bilan sug‘orilgan □ Revolution f, autoritär obro‘ga ega bo‘lgan, obro‘li, nufuzli, etiborli □ Autorität f, quaternär xim. to‘rtlamchi (davrga oid) □ Quartär p, sanitär sanitariyaga oid; sanitariya... □ Sanität f "
+	},
+	{
+		"meaning": "2. nima bilandir bog‘liq, u bilan aloqador",
+		"examples": "bazillär batsilla (tayoqcha shaklidagi bakteriya)ga oid □ Bazillen pl, legendär (ham. legendär) afsonadan (rivoyatdan) iborat bo‘lgan; afsonalarda bo‘ladigan, afsonaviy □ Legende f, visionär 1) xayolda (tasavvurda) ko‘rinadigan, xayoldagi, xayoliy 2) bashoratli, bashorat qilib aytilgan, dohiyona □ Vision f"
+	},
+	{
+		"lemma": "-arm ",
+		"synonym": "arm (2) an etwas",
+		"antonym": "reich",
+		"description": "darajasiz, sermahsul yarimsuffiks",
+		"meaning": "o‘zakdan anglashilgan narsaga oz/kam miqdorda ega",
+		"examples": "fantasiearm <ein Mensch> ijodkorona emas, fantaziyaga boy bo‘lmagan □ Fantasie f, fettarm <eine Kost> yog‘i kam, yog‘ga boy bo‘lmagan □ fett, gefühlsarm <ein Mensch> his/tuyg‘uga boy bo‘lmagan □ Gefühl n, geräuscharm <eine Maschine> kamshovqinli □ Geräusch n, ideenarm <ein Film> g‘oya/fikrga boy bo‘lmagan □ Idee f, kalorienarm <eine Kost> kam kaloriyali, kaloriyasi kam (past); to‘yimsiz □ Kalonie f, kontaktarm <ein Mensch> kam aloqali; kam chiqishimli, kirishuvchan emas □ Kontakt m, niederschlagsarm <ein Monat> yog‘ingarchilik kam bo‘lgan, quruq kelgan, quruq □ Niederschlag m, nikotinarm <eine Zigarette> kam nikotinli, nikotini kam □ Nikotin n, stickstoffarm <ein Boden> azotga boy bo‘lmagan, azoti kam, kam azotli □ Stickstoff m"
+	},
+	{
+		"lemma": "-ar·tig ",
+		"description": "darajasiz, sermahsul murakkab suffiks",
+		"meaning": "so‘zning o‘zagidan anglashilgan ma’noga o‘xshash yoki o‘shandek yaratilgan",
+		"examples": "blitzartig <eine Reaktion> yashin tezligidagi; yashindek tez; shiddatli □ Blitz m, katzenartig <eine Geschicklichkeit> xuddi mushuk kabi, mushukdek □ Katze f, krebsartig <eine Geschwulst> rak kasaliga oid; rak… □ Krebs m, palastartig <ein Haus> hashamatli, saroydek □ Palast m, -es, ..läste, sintflutartig <Regen> jalali (kuchli) □ Sintflut f, wellenartig <eine Bewegung> to‘lqinsimon, to‘lqinga o‘xshash □ Welle f"
+	},
+	{
+		"lemma": "-at ",
+		"description": "kamahsul o‘zlashma suffiks <lot.>",
+		"meaning": "sifatlarga odamlarni, predmetlarni va hodisalarni tasvirlashda o‘zakdan anglashilgan xislat (xususiyat) ma’nosini beradi",
+		"examples": "delikat xushmuomala, nazokatli, odobli, muloyim □ deliziös adj., desperat umidsizlangan, umidsizlikka tushgan, ruhi tushib ketgan, mushkul (noiloj, ilojsiz) ahvoldagi; noilojlikdan qilingan; noiloj, noumid □ Desperado <isp.> t, obligat bajarilishi (qilinishi) shart bo‘lgan, albatta qilinishi kerak bo‘lgan, majburiy, kerak, lozim, shart □ obligieren vt esk., probat sinalgan, sinashta, sinamol, ishonchli □ probieren vt, separat ayrim, alohida, bo‘lak, mustaqil □ separieren vt esk., desolat 1) yakka, yolg‘iz, tanho; boshqalardan ajralgan, so‘ppaygan, so‘qqaygan, so‘qqa 2) tasalli topmagan, tasalli bergan bilan bo‘lmaydigan, yurakdan chiqmaydigan, dardmand, dard-hasrati ko‘p, disparat bir-biriga to‘g‘ri (muvofiq, mos) kelmaydigan, zid; qarama-qarshi, obstinat o‘jar, qaysar, sarkash"
+	},
+	{
+		"lemma": "au·to- ",
+		"description": "urg‘usiz, kammahsul o‘zlashma prefiks <grek.>",
+		"meaning": "nimanidir o‘zga shaxs yordamisiz sodir bo‘ladishini ifodalaydi",
+		"examples": "autodidaktisch mustaqil/ o‘zi o‘rganadigan □ didaktisch"
+	}
+]

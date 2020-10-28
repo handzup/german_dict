@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:german_dict/domain/lemma.dart';
 import 'package:german_dict/ui/widgets/animated_icon.dart';
+import 'package:get/get.dart';
 
 class CustomListTile extends StatelessWidget {
   final int index;
-
-  const CustomListTile({Key key, @required this.index}) : super(key: key);
+  final Lemma lemma;
+  const CustomListTile({Key key, @required this.index, @required this.lemma})
+      : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -21,12 +24,15 @@ class CustomListTile extends StatelessWidget {
                   offset: Offset(0, 1))
             ]),
         child: ListTile(
+            onTap: () => Get.toNamed('/details', arguments: lemma),
             trailing: IconButton(
               onPressed: () => print('book $index'),
-              icon: CustomAnimatedIcon(),
+              icon: CustomAnimatedIcon(
+                index: lemma.lemma.hashCode,
+              ),
             ),
             title: Text(
-              '$index title',
+              lemma.lemma ?? '',
               style: Theme.of(context).textTheme.bodyText1,
             )),
       ),

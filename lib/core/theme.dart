@@ -5,12 +5,13 @@ abstract class AppTheme {
     return ThemeData(
         primaryColor: red,
         canvasColor: lightCard,
+        accentColor: bgff,
         bottomNavigationBarTheme:
             BottomNavigationBarThemeData(backgroundColor: lightBottombar),
         accentColorBrightness: Brightness.light,
         backgroundColor: lightBg,
         cardTheme: CardTheme(color: lightCard, shadowColor: Colors.grey),
-        textTheme: TextTheme(bodyText1: lightText),
+        textTheme: TextTheme(bodyText1: lightText, headline1: titleText),
         cursorColor: red);
   }
 
@@ -18,18 +19,19 @@ abstract class AppTheme {
     return ThemeData(
         canvasColor: darkCard,
         primaryColor: black,
+        accentColor: bgff,
         backgroundColor: darkBg,
         cardTheme: CardTheme(color: darkCard, shadowColor: darkCardShadow),
         bottomNavigationBarTheme:
             BottomNavigationBarThemeData(backgroundColor: darkBottombar),
-        textTheme: TextTheme(bodyText1: darkText),
+        textTheme: TextTheme(bodyText1: darkText, headline1: titleText),
         cursorColor: red);
   }
 
   static const darkBottombar = Color(0xFF575b63);
   static const darkCard = Color(0xFF494d54);
   static const darkCardShadow = Color(0xFF595c61);
-  static const lightBottombar = Color(0xFFF1F1F1);
+  static const lightBottombar = Color(0xFFf9f9f9);
   static const lightCard = Color(0xFFF1F1F1);
   static const lightCardShadow = Color(0xFF595c61);
   static const yellow = Color(0xFFFFCE00);
@@ -37,6 +39,7 @@ abstract class AppTheme {
   static const lightBg = Color(0xFFF4F3F3);
   static const black = Color(0xFF121012);
   static const red = Color(0xFFDD0000);
+  static const bgff = Color(0xFF80c2ff);
   static const TextStyle lightText = TextStyle(
       color: Colors.black,
       fontSize: 20,
@@ -45,6 +48,11 @@ abstract class AppTheme {
   static const TextStyle darkText = TextStyle(
       color: Colors.white,
       fontSize: 20,
+      fontFamily: 'GT Eesti Pro',
+      fontWeight: FontWeight.w600);
+  static const TextStyle titleText = TextStyle(
+      color: Colors.white,
+      fontSize: 25,
       fontFamily: 'GT Eesti Pro',
       fontWeight: FontWeight.w600);
 }

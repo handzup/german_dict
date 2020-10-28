@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:german_dict/ui/widgets/list_tile.dart';
-import '../widgets/animated_icon.dart';
+import 'package:hive/hive.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+
+import '../../domain/lemma.dart';
+import '../widgets/list_tile.dart';
 
 class MainPage extends StatefulWidget {
   @override
@@ -61,17 +64,40 @@ class _MainPageState extends State<MainPage> {
                 topLeft: Radius.circular(15),
               ),
               child: Container(
-                width: double.maxFinite,
-                height: double.infinity,
-                color: Theme.of(context).backgroundColor,
-                child: ListView.builder(
-                    physics: ClampingScrollPhysics(),
-                    padding: EdgeInsets.only(top: 10.0, bottom: 55),
-                    itemCount: 20,
-                    itemBuilder: (context, index) {
-                      return CustomListTile(index: index);
-                    }),
-              ),
+                  width: double.maxFinite,
+                  height: double.infinity,
+                  color: Theme.of(context).backgroundColor,
+                  child: ValueListenableBuilder(
+                    valueListenable: Hive.box('lemma').listenable(),
+                    builder: (context, Box box, child) => ListView.builder(
+                        physics: ClampingScrollPhysics(),
+                        padding: EdgeInsets.only(top: 10.0, bottom: 55),
+                        itemCount: box.values.length,
+                        itemBuilder: (context, index) {
+                          Lemma item = box.getAt(index);
+                          return CustomListTile(
+                            index: index,
+                            lemma: item,
+                          );
+                        }),
+                    child: Center(
+                      child: Text('Loading'),
+                    ),
+                  )
+                  //  GetBuilder<MainPageController>(
+                  //   init: MainPageController(),
+                  //   builder: (controller) => ListView.builder(
+                  //       physics: ClampingScrollPhysics(),
+                  //       padding: EdgeInsets.only(top: 10.0, bottom: 55),
+                  //       itemCount: controller.list.length,
+                  //       itemBuilder: (context, index) {
+                  //         return CustomListTile(
+                  //           index: index,
+                  //           lemma: controller.list[index],
+                  //         );
+                  //       }),
+                  // ),
+                  ),
             ),
           ),
         ],
