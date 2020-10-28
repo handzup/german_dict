@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:german_dict/core/theme.dart';
+
+import '../../core/theme.dart';
 
 class LemmaBox extends StatelessWidget {
   final String lemma;
@@ -19,14 +20,16 @@ class LemmaBox extends StatelessWidget {
         ? Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                title,
-                style: TextStyle(
-                    color: Colors.grey,
-                    fontSize: 15,
-                    fontFamily: 'GT Eesti Pro',
-                    fontWeight: FontWeight.w600),
-              ),
+              title.isEmpty
+                  ? SizedBox.shrink()
+                  : Text(
+                      title,
+                      style: TextStyle(
+                          color: Colors.grey,
+                          fontSize: 15,
+                          fontFamily: 'GT Eesti Pro',
+                          fontWeight: FontWeight.w600),
+                    ),
               Divider(
                 color: dividerColor,
                 height: 15,

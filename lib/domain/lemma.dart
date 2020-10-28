@@ -1,5 +1,6 @@
 import 'package:hive/hive.dart';
 import 'package:json_annotation/json_annotation.dart';
+
 part 'lemma.g.dart';
 
 @HiveType(typeId: 0)
@@ -18,11 +19,11 @@ class Lemma {
   @JsonKey(fromJson: toNull)
   final String description;
   @HiveField(4)
-  @JsonKey(fromJson: toNull)
-  final String meaning;
+  @JsonKey(fromJson: toList)
+  final List<String> meaning;
   @HiveField(5)
-  @JsonKey(fromJson: toNull)
-  final String examples;
+  @JsonKey(fromJson: toList)
+  final List<String> examples;
   @HiveField(6)
   @JsonKey(fromJson: toNull)
   final String annotation;
@@ -47,5 +48,24 @@ class Lemma {
           ? null
           : str
       : null;
+  static toList(str) {
+    if (str != null) {
+      if (str.isEmpty) {
+        return null;
+      }
+    }
+    if (str is List) {
+      final temp = <String>[];
+      str.forEach((element) {
+        temp.add(element);
+      });
+      return temp;
+    } else {
+      final temp = <String>[];
+      temp.add(str);
+      return temp;
+    }
+  }
+
   Map<String, dynamic> toJson() => _$LemmaToJson(this);
 }

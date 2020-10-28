@@ -18,6 +18,11 @@ class ThemeController extends GetxController {
     await prefs.setString('theme', themeMode.toString().split('.')[1]);
   }
 
+  Future<void> setFirst() async {
+    prefs = await SharedPreferences.getInstance();
+    await prefs.setBool('first', true);
+  }
+
   getThemeModeFromPreferences() async {
     ThemeMode themeMode;
     prefs = await SharedPreferences.getInstance();

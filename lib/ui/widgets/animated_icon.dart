@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:german_dict/core/hive.dart';
-import 'package:german_dict/domain/lemma.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
-import '../../core/theme.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+
+import '../../core/hive.dart';
+import '../../core/theme.dart';
+import '../../domain/lemma.dart';
 
 class CustomAnimatedIcon extends StatefulWidget {
   final Color color;

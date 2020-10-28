@@ -12,6 +12,20 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage> {
   final _textController = TextEditingController();
+  String keyWord;
+  List<Lemma> sort(Box box, String sort) {
+    List<Lemma> list = <Lemma>[];
+    for (var i = 0; i < box.length; i++) {
+      list.add(box.getAt(i));
+    }
+    if (sort == null || sort.isEmpty) return list.toList();
+    return list
+        .where((element) => element.lemma != null
+            ? element.lemma.contains(RegExp(sort, caseSensitive: false))
+            : false)
+        .toList();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -38,6 +52,7 @@ class _MainPageState extends State<MainPage> {
                         child: Padding(
                       padding: const EdgeInsets.only(left: 3.0, right: 3.0),
                       child: TextFormField(
+                        onChanged: (value) => setState(() => keyWord = value),
                         maxLines: 1,
                         controller: _textController,
                         cursorColor: Theme.of(context).cursorColor,
@@ -50,7 +65,10 @@ class _MainPageState extends State<MainPage> {
                     IconButton(
                       icon: Icon(Icons.clear),
                       padding: EdgeInsets.zero,
-                      onPressed: () => _textController.clear(),
+                      onPressed: () {
+                        _textController.clear();
+                        setState(() => keyWord = '');
+                      },
                     )
                   ],
                 ),
@@ -69,16 +87,18 @@ class _MainPageState extends State<MainPage> {
                   color: Theme.of(context).backgroundColor,
                   child: ValueListenableBuilder(
                     valueListenable: Hive.box('lemma').listenable(),
-                    builder: (context, Box box, child) => ListView.builder(
-                        physics: ClampingScrollPhysics(),
-                        padding: EdgeInsets.only(top: 10.0, bottom: 55),
-                        itemCount: box.values.length,
-                        itemBuilder: (context, index) {
-                          Lemma item = box.getAt(index);
-                          return CustomListTile(
-                            lemma: item,
-                          );
-                        }),
+                    builder: (context, Box box, child) {
+                      List<Lemma> ln = sort(box, keyWord);
+                      return ListView.builder(
+                          physics: ClampingScrollPhysics(),
+                          padding: EdgeInsets.only(top: 10.0, bottom: 55),
+                          itemCount: ln.length,
+                          itemBuilder: (context, index) {
+                            return CustomListTile(
+                              lemma: ln[index],
+                            );
+                          });
+                    },
                     child: Center(
                       child: Text('Loading'),
                     ),

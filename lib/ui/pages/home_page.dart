@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:german_dict/core/test.dart';
 import 'package:get/get.dart';
-import '../widgets/drawer.dart';
 
 import '../../core/theme.dart';
 import '../../core/theme_controller.dart';
 import '../widgets/bottom_nav_bar.dart';
+import '../widgets/drawer.dart';
 import 'bookmarks_page.dart';
 import 'main_page.dart';
 import 'recent_page.dart';
@@ -19,13 +18,13 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage>
     with SingleTickerProviderStateMixin {
-  ThemeMode _themeMode;
   int _currentIndex = 1;
   PageController _pageController;
 
   @override
   void initState() {
     super.initState();
+    ThemeController.to.setFirst();
     _pageController = PageController(initialPage: 1);
   }
 
@@ -38,15 +37,18 @@ class _HomePageState extends State<HomePage>
   final _scaffoldKey = GlobalKey<ScaffoldState>();
   @override
   Widget build(BuildContext context) {
-    _themeMode = ThemeController.to.themeMode;
-
     return Scaffold(
         key: _scaffoldKey,
+        resizeToAvoidBottomInset: false,
         drawer: MyDrawer(),
         backgroundColor: Theme.of(context).primaryColor,
         appBar: AppBar(
           elevation: 0,
           toolbarHeight: 40,
+          actions: [
+            IconButton(
+                icon: Icon(Icons.info), onPressed: () => Get.toNamed('/intro'))
+          ],
           leading: IconButton(
             onPressed: () => _scaffoldKey.currentState.openDrawer(),
             icon: Icon(Icons.menu),

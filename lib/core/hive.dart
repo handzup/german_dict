@@ -1,6 +1,7 @@
-import 'package:german_dict/domain/lemma.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
+
+import '../domain/lemma.dart';
 
 class HiveWrapper extends GetxController {
   Future readByKey({key, name}) async {
@@ -10,7 +11,7 @@ class HiveWrapper extends GetxController {
     return secData;
   }
 
-  Future<bool> check(String name) async {
+  check(String name) async {
     final box = await Hive.openBox(name);
     if (box != null && box.isNotEmpty) return true;
     return false;

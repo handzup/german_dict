@@ -1,15 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:german_dict/core/test.dart';
-import 'package:german_dict/core/theme.dart';
-import 'package:german_dict/domain/deatails_controller.dart';
-import 'package:german_dict/domain/lemma.dart';
-import 'package:german_dict/ui/widgets/animated_icon.dart';
-import 'package:german_dict/ui/widgets/lemma.dart';
-import 'package:german_dict/ui/widgets/lemma_desc.dart';
-import 'package:german_dict/ui/widgets/my_card.dart';
-import 'package:german_dict/ui/widgets/semantics_card.dart';
 import 'package:get/get.dart';
+
+import '../../core/theme.dart';
+import '../../domain/deatails_controller.dart';
+import '../../domain/lemma.dart';
+import '../widgets/animated_icon.dart';
+import '../widgets/lemma.dart';
+import '../widgets/my_card.dart';
+import '../widgets/semantics_card.dart';
 
 class DetailsPage extends StatelessWidget {
   @override
@@ -88,26 +87,50 @@ class DetailsPage extends StatelessWidget {
                       ),
                       MyCard(
                         widgets: [
-                          LemmaBox(
-                            title: 'Wortbildungsbedeutung',
-                            lemma: lemma.meaning,
-                            dividerColor: AppTheme.black,
-                            fontStyle: Theme.of(context).textTheme.bodyText1,
-                          ),
-                          SizedBox(
-                            height: 10,
-                          ),
                           Text(
-                            lemma.examples ?? '',
-                            style: Theme.of(context)
-                                .textTheme
-                                .bodyText1
-                                .copyWith(
-                                    fontSize: 16, fontWeight: FontWeight.w400),
+                            'Wortbildungsbedeutung',
+                            style: TextStyle(
+                                color: Colors.grey,
+                                fontSize: 15,
+                                fontFamily: 'GT Eesti Pro',
+                                fontWeight: FontWeight.w600),
                           ),
-                          SizedBox(
-                            height: 10,
-                          ),
+                          lemma.meaning == null
+                              ? SizedBox.shrink()
+                              : ListView.builder(
+                                  physics: NeverScrollableScrollPhysics(),
+                                  shrinkWrap: true,
+                                  itemCount: lemma.meaning.length,
+                                  itemBuilder: (context, index) {
+                                    return Column(
+                                      mainAxisSize: MainAxisSize.min,
+                                      children: [
+                                        LemmaBox(
+                                          title: '',
+                                          lemma: lemma.meaning[index],
+                                          dividerColor: AppTheme.black,
+                                          fontStyle: Theme.of(context)
+                                              .textTheme
+                                              .bodyText1,
+                                        ),
+                                        SizedBox(
+                                          height: 10,
+                                        ),
+                                        Text(
+                                          lemma.examples[index] ?? '',
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .bodyText1
+                                              .copyWith(
+                                                  fontSize: 16,
+                                                  fontWeight: FontWeight.w400),
+                                        ),
+                                        SizedBox(
+                                          height: 10,
+                                        ),
+                                      ],
+                                    );
+                                  }),
                           LemmaBox(
                             title: 'Anmerkung',
                             lemma: lemma.annotation,

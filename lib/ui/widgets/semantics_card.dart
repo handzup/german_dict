@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:german_dict/ui/widgets/lemma.dart';
+
+import 'lemma.dart';
 
 class SemanticsCard extends StatelessWidget {
   final String synonym;

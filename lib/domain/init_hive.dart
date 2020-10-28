@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
-import 'package:german_dict/core/hive.dart';
-import 'package:german_dict/domain/lemma.dart';
+import '../core/hive.dart';
+import 'lemma.dart';
 import 'package:get/get.dart';
 
 class InitHiveDb extends GetxController {
@@ -10,7 +10,7 @@ class InitHiveDb extends GetxController {
 
   Future<void> init() async {
     if (!await hive.check('lemma')) {
-      await writeHive(await readrootBundle());
+      writeHive(await readrootBundle());
     }
   }
 
@@ -26,7 +26,7 @@ class InitHiveDb extends GetxController {
     return await rootBundle.loadString("assets/data/codebeautify.json");
   }
 
-  Future<void> writeHive(List<Lemma> list) {
+  void writeHive(List<Lemma> list) {
     hive.writeAllBox(item: list, name: 'lemma');
   }
 }

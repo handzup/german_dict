@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:german_dict/core/theme.dart';
+
+import '../../core/theme.dart';
 
 class LemmaDescBox extends StatelessWidget {
   final String description;

@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "lemma": "a- ",
         "synonym": "un-",
@@ -271,16 +271,16 @@
     {
         "lemma": "-ell ",
         "description": "urg‘uli, kammahsul o‘zlashma suffiks, <lot. -fr.> ko‘p ma’noli",
-        "meaning": [
-            "1. so‘z o‘zagidan anglashilgan ma’no haqida, ma’noga oid",
-            "2. o‘zakdan anglashilgan muassasa, predmet orqali (ta’sir qilinadi va b.)",
-            "3. o‘zakdan anglashilgan xislarga kim/nimadir ega ekanligini, o‘sha holatda ekanligini yoki biror narsa deb atash mumkin ekanligini ifodalaydi"
-        ],
-        "examples": [
-            "finanziell <Probleme> moliyaviy □ Finanz f, industriell <die Entwicklung> sanoatga oid □ Industrie f, intellektuell <eine Leistung> aqliy, intellektual □ Intellekt f, sexuell <das Verhalten> jinsiy □ Sex m",
-            "bakteriell <verseucht> bakteriyaga oid; bakteriya... □ Bakterie f, maschinell <lesbar, gefertigt> mashinaga oid; mashina(lar) uchun belgilangan, mashina... □ Maschinie f, ministeriell <ein Erlass> ministrga va ministrlikka oid; ministr...; ministrlik.. □ Minister m, notariell <eine Beglaubigung> notariusga oid; notarius tomonidan guvohlantirilgan; notarial □ Notar m",
-            "emotionell emotsiyaga (his-tuyg‘uga) oid; emotsional, jo‘shqin, hayajonli; his-tuyg‘uga to‘la; jo‘shqinlikni (his-tuyg‘uni) ifodalaydigan □ Emotion f, exzeptionell boshqalarga o‘xshamagan, boshqalardan farq qiladigan, boshqacha, alomat □ Exeption f, konventionell hamma qabul qilgan, hammaga ma’qul bo‘lgan; rasm bo‘lib qolgan □ Konvention f, sensationell sensatsion, shov-shuv (duv-duv) gap  bo‘ladigan, hammani hayratga so ladigan □ Sensation f"
-        ]
+        "meaning": "1. so‘z o‘zagidan anglashilgan ma’no haqida, ma’noga oid",
+        "examples": "finanziell <Probleme> moliyaviy □ Finanz f, industriell <die Entwicklung> sanoatga oid □ Industrie f, intellektuell <eine Leistung> aqliy, intellektual □ Intellekt f, sexuell <das Verhalten> jinsiy □ Sex m"
+    },
+    {
+        "meaning": "2. o‘zakdan anglashilgan muassasa, predmet orqali (ta’sir qilinadi va b.)",
+        "examples": "bakteriell <verseucht> bakteriyaga oid; bakteriya... □ Bakterie f, maschinell <lesbar, gefertigt> mashinaga oid; mashina(lar) uchun belgilangan, mashina... □ Maschinie f, ministeriell <ein Erlass> ministrga va ministrlikka oid; ministr...; ministrlik.. □ Minister m, notariell <eine Beglaubigung> notariusga oid; notarius tomonidan guvohlantirilgan; notarial □ Notar m"
+    },
+    {
+        "meaning": "3. o‘zakdan anglashilgan xislarga kim/nimadir ega ekanligini, o‘sha holatda ekanligini yoki biror narsa deb atash mumkin ekanligini ifodalaydi",
+        "examples": "emotionell emotsiyaga (his-tuyg‘uga) oid; emotsional, jo‘shqin, hayajonli; his-tuyg‘uga to‘la; jo‘shqinlikni (his-tuyg‘uni) ifodalaydigan □ Emotion f, exzeptionell boshqalarga o‘xshamagan, boshqalardan farq qiladigan, boshqacha, alomat □ Exeption f, konventionell hamma qabul qilgan, hammaga ma’qul bo‘lgan; rasm bo‘lib qolgan □ Konvention f, sensationell sensatsion, shov-shuv (duv-duv) gap  bo‘ladigan, hammani hayratga so ladigan □ Sensation f"
     },
     {
         "lemma": "-(e)n ",
@@ -822,7 +822,6 @@
         ],
         "examples": [
             "planmäßig planli, plan asosida (plan bilan) qilinadigan □ Plan m, rechtmäßig qonuniy, qonunga muvofiq, qonunga asoslangan, qonun asosidagi □ Recht n, vorschriftsmäßig buyruq, farmoyish, amrga ko‘ra, muvofiq □ Vorschrift f",
-            "bedeutungsmäßig mazmunga, ma’noga oid; mazmun jihatidan; mazmuniy □ Bedeutung f, größenmäßig hajmga oid; hajmiy □ Größe f, mengenmäßig songa, miqdorga oid; son (miqdor) jihatidan; miqdoriy □ Menge f",
             "bärenmäßig <Kräfte> ayiqdek, ayiqnamo □ Bär m, lehrbuchmäßig <ein Stil> darslik(dagi)dek □ Lehrbuch n",
             "kinomäßig kinoga oid; kino... □ Kino n, partymäßig o‘tirish, kechaga oid; o‘tirish..., kecha... Party f, schulmäßig o‘quvchilarga oid; o‘quvchilar... □ Schule f"
         ]

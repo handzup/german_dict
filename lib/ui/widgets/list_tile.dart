@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:german_dict/domain/lemma.dart';
-import 'package:german_dict/ui/widgets/animated_icon.dart';
 import 'package:get/get.dart';
+
+import '../../domain/lemma.dart';
+import 'animated_icon.dart';
 
 class CustomListTile extends StatelessWidget {
   final Lemma lemma;

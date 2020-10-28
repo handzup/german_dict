@@ -1,6 +1,7 @@
-import 'package:german_dict/core/hive.dart';
-import 'package:german_dict/domain/lemma.dart';
 import 'package:get/get.dart';
+
+import '../core/hive.dart';
+import 'lemma.dart';
 
 class MainPageController extends GetxController {
   List<Lemma> _list = [];

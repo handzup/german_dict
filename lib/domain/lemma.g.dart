@@ -21,8 +21,8 @@ class LemmaAdapter extends TypeAdapter<Lemma> {
       synonym: fields[1] as String,
       antonym: fields[2] as String,
       description: fields[3] as String,
-      meaning: fields[4] as String,
-      examples: fields[5] as String,
+      meaning: (fields[4] as List)?.cast<String>(),
+      examples: (fields[5] as List)?.cast<String>(),
       annotation: fields[6] as String,
       isFav: fields[7] as bool,
     );
@@ -71,8 +71,8 @@ Lemma _$LemmaFromJson(Map<String, dynamic> json) {
     synonym: Lemma.toNull(json['synonym'] as String),
     antonym: Lemma.toNull(json['antonym'] as String),
     description: Lemma.toNull(json['description'] as String),
-    meaning: Lemma.toNull(json['meaning'] as String),
-    examples: Lemma.toNull(json['examples'] as String),
+    meaning: Lemma.toList(json['meaning']),
+    examples: Lemma.toList(json['examples']),
     annotation: Lemma.toNull(json['annotation'] as String),
     isFav: json['isFav'] as bool ?? false,
   );

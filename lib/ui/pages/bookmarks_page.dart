@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:german_dict/domain/lemma.dart';
-import 'package:german_dict/ui/widgets/list_tile.dart';
+import '../../core/theme.dart';
+import '../../domain/lemma.dart';
+import '../widgets/list_tile.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
@@ -34,13 +35,17 @@ class BookmarkPage extends StatelessWidget {
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text('Some text'),
+                      child: Text(
+                        'Bookmarks',
+                        style: Theme.of(context).textTheme.bodyText1,
+                      ),
                     ),
                     Expanded(
                         child: ValueListenableBuilder(
                       valueListenable: Hive.box('lemma').listenable(),
                       builder: (context, Box box, child) {
                         List<Lemma> ln = getAll(box);
+                        if (ln.isEmpty) return child;
                         return ListView.builder(
                             physics: ClampingScrollPhysics(),
                             padding: EdgeInsets.only(top: 10.0, bottom: 55),
@@ -52,7 +57,11 @@ class BookmarkPage extends StatelessWidget {
                             });
                       },
                       child: Center(
-                        child: Text('Loading'),
+                        child: Icon(
+                          Icons.bookmark_border_outlined,
+                          size: 50,
+                          color: AppTheme.red,
+                        ),
                       ),
                     )),
                   ],

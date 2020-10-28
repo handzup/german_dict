@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:german_dict/core/hive.dart';
-import 'package:german_dict/core/test.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
+import 'core/hive.dart';
 import 'core/theme_controller.dart';
 import 'domain/init_hive.dart';
 import 'domain/lemma.dart';
@@ -19,6 +18,7 @@ void main() async {
   ));
   await Hive.initFlutter();
   Hive.registerAdapter(LemmaAdapter());
+  // ignore: await_only_futures
   await initServices();
   await Hive.openBox('lemma');
   await Hive.openBox('history');

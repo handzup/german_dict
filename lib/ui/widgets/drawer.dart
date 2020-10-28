@@ -5,7 +5,6 @@ import 'package:get/get.dart';
 import '../../core/theme_controller.dart';
 
 class MyDrawer extends StatelessWidget {
-  ThemeMode _themeMode;
   bool checkBool(value) {
     if (value == ThemeMode.dark) {
       return true;
@@ -13,10 +12,16 @@ class MyDrawer extends StatelessWidget {
     return false;
   }
 
+  switchTheme(value) {
+    if (value.themeMode == ThemeMode.dark) {
+      ThemeController.to.setThemeMode(ThemeMode.light);
+    } else {
+      ThemeController.to.setThemeMode(ThemeMode.dark);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    _themeMode = ThemeController.to.themeMode;
-
     return Container(
       color: Theme.of(context).cardColor,
       child: Drawer(
@@ -27,9 +32,10 @@ class MyDrawer extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
-              child: Text(
-                'Drawer Header',
-                style: Theme.of(context).textTheme.bodyText1,
+              child: Center(
+                child: Image.asset(
+                  'assets/images/icon.png',
+                ),
               ),
               decoration: BoxDecoration(
                 color: Colors.transparent,
@@ -37,23 +43,17 @@ class MyDrawer extends StatelessWidget {
             ),
             ListTile(
               title: Text(
-                'Item 1',
+                'About Dictionary',
                 style: Theme.of(context).textTheme.bodyText1,
               ),
-              onTap: () {
-                // Update the state of the app.
-                // ...
-              },
+              onTap: () => Get.toNamed('/intro'),
             ),
             ListTile(
               title: Text(
-                'Item 2',
+                'About Me',
                 style: Theme.of(context).textTheme.bodyText1,
               ),
-              onTap: () {
-                // Update the state of the app.
-                // ...
-              },
+              onTap: () => Get.toNamed('/about'),
             ),
             Divider(
               height: 1,
@@ -62,24 +62,17 @@ class MyDrawer extends StatelessWidget {
               init: ThemeController(),
               builder: (value) => ListTile(
                 title: Text(
-                  'Enable Dark Mode',
+                  value.themeMode == ThemeMode.dark
+                      ? 'Disable Dark Mode'
+                      : 'Enable Dark Mode',
                   style: Theme.of(context).textTheme.bodyText1,
                 ),
                 trailing: CupertinoSwitch(
                   value: checkBool(value.themeMode),
-                  onChanged: (c) {
-                    if (value.themeMode == ThemeMode.dark) {
-                      ThemeController.to.setThemeMode(ThemeMode.light);
-                    } else {
-                      ThemeController.to.setThemeMode(ThemeMode.dark);
-                    }
-                  },
+                  onChanged: (c) => switchTheme(value),
                   activeColor: Colors.black,
                 ),
-                onTap: () {
-                  // Update the state of the app.
-                  // ...
-                },
+                onTap: () => switchTheme(value),
               ),
             ),
           ],
