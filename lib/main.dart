@@ -20,7 +20,7 @@ void main() async {
   Hive.registerAdapter(LemmaAdapter());
   // ignore: await_only_futures
   await initServices();
-  await Hive.openBox('lemma');
+  await Hive.openBox('lemma', keyComparator: (dynamic k1, dynamic k2) => 0);
   await Hive.openBox('history');
   runApp(MyApp());
 }

@@ -31,7 +31,7 @@ class DetailsPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(right: 16.0),
               child: CustomAnimatedIcon(
-                index: lemma.lemma.hashCode,
+                index: lemma.id,
                 color: Colors.white,
               ),
             )

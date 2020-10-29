@@ -10,7 +10,8 @@ class MainPage extends StatefulWidget {
   _MainPageState createState() => _MainPageState();
 }
 
-class _MainPageState extends State<MainPage> {
+class _MainPageState extends State<MainPage>
+    with AutomaticKeepAliveClientMixin {
   final _textController = TextEditingController();
   String keyWord;
   List<Lemma> sort(Box box, String sort) {
@@ -123,4 +124,7 @@ class _MainPageState extends State<MainPage> {
       ),
     );
   }
+
+  @override
+  bool get wantKeepAlive => true;
 }

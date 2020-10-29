@@ -25,13 +25,14 @@ class LemmaAdapter extends TypeAdapter<Lemma> {
       examples: (fields[5] as List)?.cast<String>(),
       annotation: fields[6] as String,
       isFav: fields[7] as bool,
+      id: fields[8] as int,
     );
   }
 
   @override
   void write(BinaryWriter writer, Lemma obj) {
     writer
-      ..writeByte(8)
+      ..writeByte(9)
       ..writeByte(0)
       ..write(obj.lemma)
       ..writeByte(1)
@@ -47,7 +48,9 @@ class LemmaAdapter extends TypeAdapter<Lemma> {
       ..writeByte(6)
       ..write(obj.annotation)
       ..writeByte(7)
-      ..write(obj.isFav);
+      ..write(obj.isFav)
+      ..writeByte(8)
+      ..write(obj.id);
   }
 
   @override
@@ -75,6 +78,7 @@ Lemma _$LemmaFromJson(Map<String, dynamic> json) {
     examples: Lemma.toList(json['examples']),
     annotation: Lemma.toNull(json['annotation'] as String),
     isFav: json['isFav'] as bool ?? false,
+    id: json['id'] as int,
   );
 }
 
@@ -87,4 +91,5 @@ Map<String, dynamic> _$LemmaToJson(Lemma instance) => <String, dynamic>{
       'examples': instance.examples,
       'annotation': instance.annotation,
       'isFav': instance.isFav,
+      'id': instance.id,
     };

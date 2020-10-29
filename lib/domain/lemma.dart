@@ -30,16 +30,18 @@ class Lemma {
   @HiveField(7)
   @JsonKey(defaultValue: false)
   final bool isFav;
-  Lemma({
-    this.lemma,
-    this.synonym,
-    this.antonym,
-    this.description,
-    this.meaning,
-    this.examples,
-    this.annotation,
-    this.isFav,
-  });
+  @HiveField(8)
+  final int id;
+  Lemma(
+      {this.lemma,
+      this.synonym,
+      this.antonym,
+      this.description,
+      this.meaning,
+      this.examples,
+      this.annotation,
+      this.isFav,
+      this.id});
   factory Lemma.fromJson(Map<String, dynamic> json) => _$LemmaFromJson(
         json,
       );

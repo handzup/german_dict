@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage>
   void initState() {
     super.initState();
     ThemeController.to.setFirst();
-    _pageController = PageController(initialPage: 1);
+    _pageController = PageController(initialPage: 1, keepPage: true);
   }
 
   @override

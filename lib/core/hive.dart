@@ -30,6 +30,7 @@ class HiveWrapper extends GetxController {
     final openBox = await Hive.openBox(name);
     Lemma lemma = await openBox.get(index);
     Lemma newL = Lemma(
+        id: lemma.id,
         annotation: lemma.annotation,
         antonym: lemma.antonym,
         description: lemma.description,
@@ -44,7 +45,7 @@ class HiveWrapper extends GetxController {
   writeAllBox({List<Lemma> item, String name}) async {
     final openBox = await Hive.openBox(name);
     item.forEach((i) async {
-      await openBox.put(i.lemma.hashCode, i);
+      await openBox.put(i.id, i);
     });
   }
 

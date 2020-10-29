@@ -8,7 +8,6 @@ class DetailsController extends GetxController {
   DetailsController({this.lemma});
   @override
   void onInit() {
-    print('im init with index ${lemma.lemma.hashCode}');
     writeToHisotry();
     super.onInit();
   }

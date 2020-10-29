@@ -27,7 +27,7 @@ class CustomListTile extends StatelessWidget {
             trailing: IconButton(
               onPressed: () => print('book '),
               icon: CustomAnimatedIcon(
-                index: lemma.lemma.hashCode,
+                index: lemma.id,
               ),
             ),
             title: Text(
