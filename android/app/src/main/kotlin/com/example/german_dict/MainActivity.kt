@@ -1,4 +1,4 @@
-package com.example.german_dict
+package uz.dict.deutschusbekisches
 
 import io.flutter.embedding.android.FlutterActivity
 

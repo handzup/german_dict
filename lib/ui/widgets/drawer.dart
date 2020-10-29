@@ -43,17 +43,17 @@ class MyDrawer extends StatelessWidget {
             ),
             ListTile(
               title: Text(
-                'About Dictionary',
+                'Lug\'at haqida',
                 style: Theme.of(context).textTheme.bodyText1,
               ),
               onTap: () => Get.toNamed('/intro'),
             ),
             ListTile(
               title: Text(
-                'About Me',
+                'Lug\'atdan foydalanish uchun ko\'rsatmalar',
                 style: Theme.of(context).textTheme.bodyText1,
               ),
-              onTap: () => Get.toNamed('/about'),
+              onTap: () => Get.toNamed('/desc'),
             ),
             Divider(
               height: 1,

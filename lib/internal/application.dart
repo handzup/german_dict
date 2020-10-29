@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:german_dict/ui/pages/about.dart';
+import 'package:german_dict/ui/pages/app_desc.dart';
 import '../core/hive.dart';
 import '../ui/pages/details_page.dart';
 import '../ui/pages/intro_page.dart';
@@ -24,13 +25,14 @@ class MyApp extends StatelessWidget {
         GetPage(name: '/', page: () => HomePage()),
         GetPage(name: '/home', page: () => HomePage()),
         GetPage(name: '/about', page: () => About()),
+        GetPage(name: '/desc', page: () => AppDesc()),
         GetPage(
             name: '/details',
             page: () => DetailsPage(),
             transition: Transition.cupertino),
         GetPage(name: '/intro', page: () => IntroPage())
       ],
-      title: 'German Dictionary',
+      title: 'Deutsch-usbekisches E-Wörterbuch der adjektiv-bildenden Affixe',
       theme: AppTheme.lightTheme(),
       darkTheme: AppTheme.darkTheme(),
       themeMode: ThemeMode.light,

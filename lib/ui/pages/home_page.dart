@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage>
           toolbarHeight: 40,
           actions: [
             IconButton(
-                icon: Icon(Icons.info), onPressed: () => Get.toNamed('/intro'))
+                icon: Icon(Icons.info), onPressed: () => Get.toNamed('/about'))
           ],
           leading: IconButton(
             onPressed: () => _scaffoldKey.currentState.openDrawer(),
