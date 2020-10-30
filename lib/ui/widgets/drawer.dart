@@ -63,8 +63,8 @@ class MyDrawer extends StatelessWidget {
               builder: (value) => ListTile(
                 title: Text(
                   value.themeMode == ThemeMode.dark
-                      ? 'Disable Dark Mode'
-                      : 'Enable Dark Mode',
+                      ? 'Qorong\'i rejimni o\'chirish.'
+                      : 'Qorong\'i rejimga o\'tish.',
                   style: Theme.of(context).textTheme.bodyText1,
                 ),
                 trailing: CupertinoSwitch(

@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage>
             BottomNavyBarItem(
               icon: Icon(Icons.history),
               title: Text(
-                'Recent',
+                'Zuletzt angesehen',
                 style: TextStyle(color: Colors.black),
               ),
               activeColor: AppTheme.yellow,
@@ -105,7 +105,7 @@ class _HomePageState extends State<HomePage>
             BottomNavyBarItem(
               icon: Icon(Icons.search),
               title: Text(
-                'Search',
+                'Suche',
                 style: TextStyle(color: Colors.black),
               ),
               activeColor: AppTheme.yellow,
@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage>
             BottomNavyBarItem(
               icon: Icon(Icons.bookmark),
               title: Text(
-                'Bookmarks',
+                'Lesezeichen',
                 style: TextStyle(color: Colors.black),
               ),
               activeColor: AppTheme.yellow,

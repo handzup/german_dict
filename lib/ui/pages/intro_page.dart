@@ -25,11 +25,14 @@ class IntroPage extends StatelessWidget {
                   height: 20,
                 ),
                 Text(
-                  """       Mazkur lug‘at «So‘z yasalishining leksikografik aspekti (nemis va o‘zbek tillari misolida)» mavzusidagi ilmiy tadqiqotimiz doirasida tayyorlangan bo‘lib, u nemis tili sifat yasovchi elementlari va ularning o‘zbek tiliga muqobil tarjimasiga bag‘ishlangan. Tarjimalar berilishi bilan bir qatorda ushbu birliklarga tegishli qo‘shimcha ma’lumotlar, jumladan, ularning turi, mahsullilik darajasi, kelib chiqishi hamda ular yordamida hosil qilingan leksemalarning berilishi leksikografik manbaning amaliy ahamiyatini oshiradi. Ushbu lug‘atdan oliy o‘quv yurti talabalari, magistrant va doktorantlari, shuningdek, profesoor-o‘qituvchilari leksikologiya, leksikografiya, tarjimashunoslik va chog‘ishtirma tilshunoslik fanlarini o‘qitish va o‘zlashtirishda foydalanishlari mumkinoyaviy""",
+                  """       Mazkur «Nemischa-o‘zbekcha sifat yasovchi affikslar elektron lug‘ati» o‘zbek lug‘atchiligining «So‘z yasalishi» tizimida o‘zbek va nemis tillari doirasida yaratilgan dastlabki asar sifatida qimmatlidir. Unda sifat leksemalari yasovchi 170 ga yaqin birliklar qamrab olinib, har bir affiks alohida lemma sifatida berilgan holda misollar yordamida yoritilgan. Lug‘at maqolalari yetakchi leksikografik olimlarning ilmiy xulosalariga tayangan holda hamda mavjud leksikografik makro- va mikrostrukturaviy tamoyillar asosida tuzilgan.  Undan oliy o‘quv yurti talabalari, magistrant va doktorantlari, shuningdek, profesoor-o‘qituvchilari leksikologiya, leksikografiya, tarjimashunoslik va chog‘ishtirma tilshunoslik fanlarini o‘qitish va o‘zlashtirish, shuningdek, kurs va diplom ishlarini, ilmiy tadqiqotlarni olib borishda amaliy manba sifatida foydalanishlari mumkin.
+Nemis va o‘zbek tillari ishtirokida so‘z yasovchi elementlarga bag‘ishlangan lug‘atlarning mavjud emasligi mazkur ijodiy ishning yaratilishida ma’lum qiyinchililarni keltirib chiqargan bo‘lsa, boshqa tarafdan, bizni dolzarb va bahsli mavzuga qo‘l urishimizga, bu orqali esa mavjud leksikografik bo‘shliqni ma’lum darajada to‘ldirishga ruhlantirdi. 
+Lug‘at foydalanuvchilari tomonidan bildirilgan qimmatli fikr va mulohazalar, shuningdek, lug‘atni mukammallashtirish maqsadida bildirilgan har qanday taklif va tavsiyalar uchun muallif oldindan o’z minnaddorchiligini izhor etib qoladi.
+""",
                   style: Theme.of(context)
                       .textTheme
                       .bodyText1
-                      .copyWith(fontSize: 15, fontStyle: FontStyle.italic),
+                      .copyWith(fontSize: 15, fontWeight: FontWeight.w400),
                   textAlign: TextAlign.justify,
                 ),
                 SizedBox(
@@ -38,7 +41,7 @@ class IntroPage extends StatelessWidget {
                 Text("""MAS’UL MUHARRIR:
 Filologiya fanlari nomzodi, dotsent: X. Raximov
 
-TAQRIZChILAR:
+TAQRIZCHILAR:
 Filologiya fanlari nomzodi, professor:  Sh. Imyaminova
 Filologiya fanlari nomzodi, dotsent: Yu. Ismoilov
 """,

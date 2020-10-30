@@ -36,7 +36,7 @@ class RecentPage extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        'Recently viewed',
+                        'Zuletzt angesehen',
                         style: Theme.of(context).textTheme.bodyText1,
                       ),
                     ),
