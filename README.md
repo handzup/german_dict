@@ -1,16 +1,24 @@
 # german_dict
 
-A new Flutter project.
+ # gdg_flutter_app
 
-## Getting Started
+    DevFest Tashkent Flutter Mobile application 
 
-This project is a starting point for a Flutter application.
+## 📸 ScreenShots
 
-A few resources to get you started if this is your first Flutter project:
+|             Light Theme              |              Dark Theme              |
+| :----------------------------------: | :----------------------------------: |
+| ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/1.png) | ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/1-b.png) |
+| ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/2.png) | ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/2-b.png) |
+| ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/3.png) | ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/3-b.png) |
+| ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/4.png) | ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/4-b.png) |
+| ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/5.png) | ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/5-b.png) |
+| ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/6.png) | ![](https://raw.githubusercontent.com/handzup/german_dict/master/screenshots/6-b.png) |
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Overview
+
+Das „Deutsch-Usbekische elektronische Wörterbuch der adjektiv-bildenden Affixe“ ist wertvoll als erstes Werk, das in usbekischer und deutscher Sprache im Bereich der Wortbildung der usbekischen Lexikographie erstellt wurde. Es umfasst ungefähr 170 Einheiten, aus denen Adjektive abgeleitet werden, wobei jedes Affix als Lemma angegeben und anhand von Beispielen veranschaulicht wird. Die Wörterbuchartikel basieren auf den wissenschaftlichen Erkenntnissen führender Lexikographen sowie auf bestehenden lexikografischen makro- und mikrostrukturellen Prinzipien. Dies können StudentInnen, DoktorandInnen sowie Professoren an der Universitäten in den Fächern wie Lexikologie, Lexikographie, Übersetzungswissenschaft und vergleichende Linguistik benutzen, aber auch es kann beim Schreiben der Jahres-, Diplom- und Forschungsarbeit verwendet werden.
+ 
+
+ 
