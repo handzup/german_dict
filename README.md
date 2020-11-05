@@ -1,9 +1,5 @@
 # german_dict
-
- # gdg_flutter_app
-
-    DevFest Tashkent Flutter Mobile application 
-
+ Das „Deutsch-Usbekische elektronische Wörterbuch der adjektiv-bildenden Affixe“ umfasst ungefähr 170 Einheiten, aus denen Adjektive abgeleitet werden, wobei jedes Affix als Lemma angegeben und anhand von Beispielen veranschaulicht wird. Die Wörterbuchartikel basieren auf den wissenschaftlichen Erkenntnissen führender Lexikographen sowie auf bestehenden lexikografischen makro- und mikrostrukturellen Prinzipien.
 ## 📸 ScreenShots
 
 |             Light Theme              |              Dark Theme              |
