@@ -25,10 +25,10 @@ class IntroPage extends StatelessWidget {
                   height: 20,
                 ),
                 Text(
-                  """       Mazkur «Nemischa-o‘zbekcha sifat yasovchi affikslar elektron lug‘ati» o‘zbek lug‘atchiligining «So‘z yasalishi» tizimida o‘zbek va nemis tillari doirasida yaratilgan dastlabki asar sifatida qimmatlidir. Unda sifat leksemalari yasovchi 170 ga yaqin birliklar qamrab olinib, har bir affiks alohida lemma sifatida berilgan holda misollar yordamida yoritilgan. Lug‘at maqolalari yetakchi leksikografik olimlarning ilmiy xulosalariga tayangan holda hamda mavjud leksikografik makro- va mikrostrukturaviy tamoyillar asosida tuzilgan.  Undan oliy o‘quv yurti talabalari, magistrant va doktorantlari, shuningdek, profesoor-o‘qituvchilari leksikologiya, leksikografiya, tarjimashunoslik va chog‘ishtirma tilshunoslik fanlarini o‘qitish va o‘zlashtirish, shuningdek, kurs va diplom ishlarini, ilmiy tadqiqotlarni olib borishda amaliy manba sifatida foydalanishlari mumkin.
-Nemis va o‘zbek tillari ishtirokida so‘z yasovchi elementlarga bag‘ishlangan lug‘atlarning mavjud emasligi mazkur ijodiy ishning yaratilishida ma’lum qiyinchililarni keltirib chiqargan bo‘lsa, boshqa tarafdan, bizni dolzarb va bahsli mavzuga qo‘l urishimizga, bu orqali esa mavjud leksikografik bo‘shliqni ma’lum darajada to‘ldirishga ruhlantirdi. 
-Lug‘at foydalanuvchilari tomonidan bildirilgan qimmatli fikr va mulohazalar, shuningdek, lug‘atni mukammallashtirish maqsadida bildirilgan har qanday taklif va tavsiyalar uchun muallif oldindan o’z minnaddorchiligini izhor etib qoladi.
-""",
+                  """      Mazkur «Nemischa-o‘zbekcha sifat yasovchi affikslar elektron lug‘ati» o‘zbek lug‘atchiligining «So‘z yasalishi» tizimida o‘zbek va nemis tillari doirasida yaratilgan dastlabki asar sifatida qimmatlidir. Unda sifat leksemalari yasovchi 170 ga yaqin birliklar qamrab olinib, har bir affiks alohida lemma sifatida berilgan holda misollar yordamida yoritilgan. Lug‘at maqolalari yetakchi leksikografik olimlarning ilmiy xulosalariga tayangan holda hamda mavjud leksikografik makro- va mikrostrukturaviy tamoyillar asosida tuzilgan.  Undan oliy o‘quv yurti talabalari, magistrant va doktorantlari, shuningdek, professor-o‘qituvchilari leksikologiya, leksikografiya, tarjimashunoslik va chog‘ishtirma tilshunoslik fanlarini o‘qitishda, shuningdek, kurs va diplom ishlarini, ilmiy tadqiqotlarni olib borishda amaliy manba sifatida foydalanishlari mumkin.
+      
+      Nemis va o‘zbek tillari ishtirokida so‘z yasovchi elementlarga bag‘ishlangan lug‘atlarning mavjud emasligi mazkur ijodiy ishning yaratilishida ma’lum qiyinchililarni keltirib chiqargan bo‘lsa, boshqa tarafdan, bizni dolzarb va bahsli mavzuga qo‘l urishimizga, bu orqali esa mavjud leksikografik bo‘shliqni ma’lum darajada to‘ldirishga ruhlantirdi.       Lug‘at foydalanuvchilari tomonidan bildirilgan qimmatli fikr va mulohazalar, shuningdek, lug‘atni mukammallashtirish maqsadida bildirilgan har qanday taklif va tavsiyalar uchun mualliflar oldindan o’z minnaddorchiliklarini izhor etib qoladilar.
+      Lug‘at foydalanuvchilari tomonidan bildirilgan qimmatli fikr va mulohazalar, shuningdek, lug‘atni mukammallashtirish maqsadida bildirilgan har qanday taklif va tavsiyalar uchun mualliflar oldindan o’z minnaddorchiliklarini izhor etib qoladilar.""",
                   style: Theme.of(context)
                       .textTheme
                       .bodyText1
@@ -42,8 +42,8 @@ Lug‘at foydalanuvchilari tomonidan bildirilgan qimmatli fikr va mulohazalar, s
 Filologiya fanlari nomzodi, dotsent: X. Raximov
 
 TAQRIZCHILAR:
-Filologiya fanlari nomzodi, professor:  Sh. Imyaminova
 Filologiya fanlari nomzodi, dotsent: Yu. Ismoilov
+Filologiya fanlari nomzodi, katta o’qituvchi: M. Zulxonov
 """,
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.bodyText1.copyWith(

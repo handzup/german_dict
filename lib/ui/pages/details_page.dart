@@ -91,7 +91,7 @@ class DetailsPage extends StatelessWidget {
                             'Wortbildungsbedeutung',
                             style: TextStyle(
                                 color: Colors.grey,
-                                fontSize: 15,
+                                fontSize: 12,
                                 fontFamily: 'GT Eesti Pro',
                                 fontWeight: FontWeight.w600),
                           ),
@@ -139,7 +139,7 @@ class DetailsPage extends StatelessWidget {
                                 .textTheme
                                 .bodyText1
                                 .copyWith(
-                                    fontSize: 16, fontWeight: FontWeight.w400),
+                                    fontSize: 18, fontWeight: FontWeight.w400),
                           ),
                         ],
                       ),

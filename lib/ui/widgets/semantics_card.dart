@@ -51,7 +51,7 @@ class SemanticsCard extends StatelessWidget {
                       fontStyle: Theme.of(context)
                           .textTheme
                           .bodyText1
-                          .copyWith(fontSize: 16, fontWeight: FontWeight.w400),
+                          .copyWith(fontSize: 20, fontWeight: FontWeight.w400),
                     ),
                     LemmaBox(
                         title: 'Antonym',
@@ -61,7 +61,7 @@ class SemanticsCard extends StatelessWidget {
                             .textTheme
                             .bodyText1
                             .copyWith(
-                                fontSize: 16, fontWeight: FontWeight.w400))
+                                fontSize: 20, fontWeight: FontWeight.w400))
                   ],
                 ),
               ),

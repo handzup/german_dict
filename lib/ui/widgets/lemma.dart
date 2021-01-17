@@ -26,7 +26,7 @@ class LemmaBox extends StatelessWidget {
                       title,
                       style: TextStyle(
                           color: Colors.grey,
-                          fontSize: 15,
+                          fontSize: 12,
                           fontFamily: 'GT Eesti Pro',
                           fontWeight: FontWeight.w600),
                     ),

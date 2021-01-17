@@ -4,23 +4,23 @@ import 'package:flutter_html/style.dart';
 
 const htmlData = """ 
 <ol>
- <strong> I.	Lemmalar.  </strong>Lemmalar lug&lsquo;atda alfavit tartibida joylashtirilgan bo&lsquo;lib, bunda ular (<strong>-a&middot;bel</strong>) bo&lsquo;g&lsquo;inlarga ajratilishi qalin nuqta belgisi (<strong>&middot;</strong>) orqali va ular yordamida hosil qilingan yasama so&lsquo;zlar <strong><em>yarimqalin qiya bosma &ndash;kursiv</em></strong> harflar bilan ajratib yozilgan. Lemmaga tegishli qo&lsquo;shimcha ma&rsquo;lumotlar (<em>kammahsul, urg&lsquo;uli, sermahsul </em>va shu kabilar) kursiv harflarda, tarjimalar va ularning sinonimlari esa och rangli harflar bilan berilgan. Lemmalar so&lsquo;z yasovchi elementlardan tarkib topganligi sababli, dastavval, o&lsquo;sha affiksning ma&rsquo;nosi, so&lsquo;ngra, u bilan hosil qilingan yasama so&lsquo;zlar tarjimalari berilgan. Masalan: 
+<li><strong>Lemmalar. </strong>Lemmalar lug&lsquo;atda alfavit tartibida joylashtirilgan bo&lsquo;lib, bunda ular (<strong>-a&middot;bel</strong>) bo&lsquo;g&lsquo;inlarga ajratilishi qalin nuqta belgisi (<strong>&middot;</strong>) orqali va ular yordamida hosil qilingan yasama so&lsquo;zlar <strong><em>yarimqalin qiya bosma &ndash;kursiv</em></strong> harflar bilan ajratib yozilgan. Lemmaga tegishli qo&lsquo;shimcha ma&rsquo;lumotlar (<em>kammahsul, urg&lsquo;uli, sermahsul </em>va shu kabilar) kursiv harflarda, tarjimalar va ularning sinonimlari esa och rangli harflar bilan berilgan. Lemmalar so&lsquo;z yasovchi elementlardan tarkib topganligi sababli, dastavval, o&lsquo;sha affiksning ma&rsquo;nosi, so&lsquo;ngra, u bilan hosil qilingan yasama so&lsquo;zlar tarjimalari berilgan. Masalan:</li>
 </ol>
 <p><strong>&nbsp;</strong></p>
 <p><strong>al</strong><strong>&middot;</strong><strong>lo</strong><strong>-</strong>, <em>unlilar oldidan </em><strong>all</strong><strong>- </strong>[al-] <em>shaklida,</em> <em>mahsulsiz o&lsquo;zlashma prefiks</em> &lt;<em>grek.&gt; </em></p>
-<p>sifatlarga o&lsquo;zgaruvchanlik, xilma-xillik ma&rsquo;nosini beradi; <strong><em>allochromatisch</em></strong> [-k-] alloxromatik □ chromatisch,<strong> <em>allochton</em></strong> <em>geol.</em> alloxtonnik □ autochton, <strong><em>allogam</em></strong> kzndalang changlanadigan/urug&lsquo;lanadigan</p>
+<p>sifatlarga o&lsquo;zgaruvchanlik, xilma-xillik ma&rsquo;nosini yuklaydi; <strong><em>allochromatisch</em></strong> [-k-] alloxromatik □ chromatisch,<strong> <em>allochton</em></strong> <em>geol.</em> alloxtonnik □ autochton, <strong><em>allogam</em></strong> kzndalang changlanadigan/urug&lsquo;lanadigan</p>
 <p>&nbsp;</p>
 <p>Lemmalar tarjimalari bir so&lsquo;z yoki mazmunan bir-biriga yaqin sinonimlar orqali ifodalangan.&nbsp;</p>
 <p>Bir necha ma&rsquo;no qatoriga ega bo&lsquo;lgan affiks <em>ko&lsquo;p ma&rsquo;noli</em> deya qayd etilgan va uning ma&rsquo;nolari bir-biridan arab raqami bilan ajratilgan.</p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>-al</strong> <em>urg&lsquo;uli, kammahsul suffiks</em></p>
 <ol>
-<li>kim/nimaningdir holatida, tarzida, kim/nima kabi/singari <em>&asymp; </em>-artig, -haft;<strong><em> horizontal </em></strong>gorizantal<strong><em>, katastrophal</em></strong> falokatli<strong><em>, normal</em></strong> normal, tabiiy, mo&lsquo;tadil; odatiy<strong><em>, triumphal</em></strong> zafar (g&lsquo;alaba)ga oid, zafar ...; g&lsquo;olibona</li>
-<li><em>darajasiz</em>; -dan kelib chiqib, -ga tayanib, -ga oid;<strong><em> formal</em></strong> formaga oid, formal; rasmiy<strong><em>, hormonal</em></strong> gormonal, gormon...<em>,<strong> kolonial </strong></em>mustamlakachilikka va mustamlakalarga oid; kolonial; mustamlaka...; mustamlakachilik...; koloniya (qaram) bo&lsquo;lgan, mustamlaka; qaram<em>,<strong> national</strong></em> millatga tegishli, milliy<strong><em>, regional</em></strong> regionga oid; hududiy</li>
+<li>o&rsquo;zakdan anglashilgan belgi (ma&rsquo;no) kabi/singari degan ma&rsquo;noni anglatadi <em>&asymp; </em>-artig, -haft;<strong><em> horizontal </em></strong>gorizantal<strong><em>, katastrophal</em></strong> falokatli<strong><em>, normal</em></strong> normal, tabiiy, mo&lsquo;tadil; odatiy<strong><em>, triumphal</em></strong> zafar (g&lsquo;alaba)ga oid, zafar ...; g&lsquo;olibona</li>
+<li><em>darajasiz</em>; o&rsquo;zakdan anglashilagan ma&rsquo;no ga oid kabi ma&rsquo;noni ifodalaydi;<strong><em> formal</em></strong> formaga oid, formal; rasmiy<strong><em>, hormonal</em></strong> gormonal, gormon...<em>,<strong> kolonial </strong></em>mustamlakachilikka va mustamlakalarga oid; kolonial; mustamlaka...; mustamlakachilik...; koloniya (qaram) bo&lsquo;lgan, mustamlaka; qaram<em>,<strong> national</strong></em> millatga tegishli, milliy<strong><em>, regional</em></strong> regionga oid; hududiy</li>
 </ol>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; So&lsquo;z yasovchi elementlar turlarini farqlashda M.D. Stepanova (&laquo;Slovar slovoobrazovatelnыx elementov nemetskogo yazыka&raquo;, Moskva: Russkiy yazыk, 1979) ning klassifikatsiyasiga tayanildi, masalan, suffiks, yarimsuffiks, o&lsquo;zlashma suffiks, murakkab suffiks, prefiks, yarimprefiks, o&lsquo;zlashma prefiks, murakkab prefiks, murakkab sifatning birinchi chastotali komponenti. Ular lemmadan keyin <em>(yarimprefiks va shu kabilar) kursiv </em>harflarda berilgan:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; So&lsquo;z yasovchi elementlar turlarini farqlashda M.&nbsp;D.&nbsp;Stepanova (Словарь словообразовательных элементов немецкого языка&raquo;, Москва: Русский язык, 1979) ning klassifikatsiyasiga tayanildi, masalan, suffiks, yarimsuffiks, o&lsquo;zlashma suffiks, murakkab suffiks, prefiks, yarimprefiks, o&lsquo;zlashma prefiks, murakkab prefiks, murakkab sifatning birinchi chastotali komponenti. Ular lemmadan keyin <em>(yarimprefiks va shu kabilar) kursiv </em>harflarda berilgan:</p>
 <p><strong>al&middot;ler<em>-</em></strong> <em>urg&lsquo;uli, sermahsul yarimprefiks, dealiktik so&lsquo;zlashuv uslubiga xos</em>; orttirma daraja mazmunini yanada kuchaytirish/orttirish uchun ishlatiladi;<strong><em> allerbest-</em></strong> eng yaxshi</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Muayyan affiksdan hosil qilingan leksemalarning so&lsquo;z yasalish asosi □ belgisidan keyin berilgan. Agar mazkur belgi mavjud bo&lsquo;lmasa, ushbu leksema unikal asos hisoblanadi. Masalan:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Muayyan affiksdan hosil qilingan leksemalarning so&lsquo;z yasalish asosi □ belgisidan keyin berilgan. Agar mazkur belgi mavjud bo&lsquo;lmasa, ushbu leksema unikal asos hisoblanadi. Masalan:</p>
 <p><strong>-a&middot;bel</strong> <em>fe&rsquo;llardan (asosan &ndash;ieren bilan tugagan)keyin qo&lsquo;shiladi, urg&lsquo;uli, kammahsul o&lsquo;zlashma suffiks &lt;lot. -fr.&gt;</em></p>
 <p>nimadir mumkin, imkonli yoki kim/nimadir biror narsa uchun yaroqliligini ifodalaydi <em>&asymp; </em>-bar;<strong><em> akzeptabel </em></strong>maqbul, ma&rsquo;qul □ Akzept <em>n</em><em>,<strong> deklinabel</strong></em> turlanuvchi □ Deklination <em>f, </em><em>&asymp; </em>deklinierbar <em>&harr; </em>indeklinabel &lt;ein Wort&gt;,<strong><em> transportabel</em></strong> &lt;ein Fernsehapparat&gt; ko&lsquo;chma, ko&lsquo;chiriladigan □ Transport <em>m</em>,<strong><em> praktikabel</em></strong> &lt;eine L&ouml;sung, eine Methode&gt; amaliy, amalga oshirsa bo&lsquo;ladigan □ Praktik <em>f</em>,<strong><em> reparabel</em></strong> tuzatib (to&lsquo;g&lsquo;irlab) bo&lsquo;ladigan □ reperiren, <em>&asymp;</em>&nbsp; reparierbar <em>&harr; </em>irreparabel &lt;ein Schaden&gt;</p>
 <p>Lemma yordamida hosil qilingan yasama so&lsquo;zlarning pragmatik xususiyatini yoritish maqsadida &lt;...&gt; belgisida ushbu leksema bilan so&lsquo;z birikmasi hosil qilinishi mumkin bo&lsquo;lgan so&lsquo;zlar berilgan:</p>
@@ -37,15 +37,16 @@ const htmlData = """
 <p><strong>in-</strong> <em>urg&lsquo;uli, kammahsul o&lsquo;zlashma prefiks, yozma uslubga xos</em></p>
 <p>shaxs yoki predmet so&lsquo;z yasalishi asosidan anglashilgan narsaga, belgiga, xususiyatga ega emasligini bildiruchi sifat yasaydi</p>
 <ol>
- <strong> II. Talaffuz. </strong>Lemmalarning talaffuziga oid ma&rsquo;lumotlar, asosan, o&lsquo;zga tillardan o&lsquo;zlashgan va odatiy nemis tili talaffuz qoidalariga mos kelmaydigan birliklardan keyin [-] belgida berilgan: 
+<li><strong>Talaffuz. </strong>Lemmalarning talaffuziga oid ma&rsquo;lumotlar, asosan, o&lsquo;zga tillardan o&lsquo;zlashgan va odatiy nemis tili talaffuz qoidalariga mos kelmaydigan birliklardan keyin [-] belgida berilgan:</li>
 </ol>
-<p><strong>&nbsp;</strong></p>
 <p><strong>-&auml;</strong><strong>r</strong></p>
-<p>[-'<strong>ɛ</strong>: r] <em>mahsulli o&lsquo;zlashma suffiks</em> <strong>&lt;</strong><em>lot</em>.-<em>fr.&gt;, ko&lsquo;p ma&rsquo;noli</em></p>
+<p>[-'ɛ: r] <em>mahsulli o&lsquo;zlashma suffiks</em> <strong>&lt;</strong><em>lot</em>.-<em>fr.&gt;, ko&lsquo;p ma&rsquo;noli</em></p>
 <ol>
 <li>nimgadir tegishli, qarashli ekanlik ma&rsquo;nosini ifodalaydi <em>(ba&rsquo;zan tovush o&lsquo;zgarishi sodir bo&lsquo;lishi mumkin);</em> <strong><em>muskul</em></strong><strong><em>&auml;</em></strong><strong><em>r</em></strong> muskul(lar)ga, mushaklarga oid; muskul...; mushak... □ Muskel <em>t</em>, <strong><em>reaktion</em></strong><strong><em>&auml;</em></strong><strong><em>r</em></strong> <strong>1)</strong> reaksion <strong>2)</strong> reaksiya chaqiruvchi □ Reaktion <em>f</em><em>,</em><strong><em>revolution</em></strong><strong><em>&auml;</em></strong><strong><em>r</em></strong> revolyutsion, inqilobiy, revolyutsion (inqilobiy) ruhdagi, revolyutsion (inqilobiy) ruh bilan sug&lsquo;orilgan □ Revolution <em>f,</em> <strong><em>autorit</em></strong><strong><em>&auml;</em></strong><strong><em>r</em></strong> obro&lsquo;ga ega bo&lsquo;lgan, obro&lsquo;li, nufuzli, etiborli □ Autorit&auml;t <em>f,</em> <strong><em>quatern</em></strong><strong><em>&auml;</em></strong><strong><em>r</em></strong> <em>xim.</em> to&lsquo;rtlamchi (davrga oid) □ Quart&auml;r <em>p, </em><strong><em>sanit</em></strong><strong><em>&auml;</em></strong><strong><em>r</em></strong> sanitariyaga oid; sanitariya... □ Sanit&auml;t <em>f</em></li>
 <li>nima bilandir bog&lsquo;liq, u bilan aloqador; <strong><em>bazill&auml;r</em> </strong>batsilla (tayoqcha shaklidagi bakteriya)ga oid □ Bazillen <em>pl,</em> <strong><em>legend&auml;r</em> </strong>(<em>ham.</em> legend&auml;r) afsonadan (rivoyatdan) iborat bo&lsquo;lgan; afsonalarda bo&lsquo;ladigan, afsonaviy □ Legende <em>f</em>, <strong><em>vision&auml;r</em> 1)</strong> xayolda (tasavvurda) ko&lsquo;rinadigan, xayoldagi, xayoliy <strong>2)</strong> bashoratli, bashorat qilib aytilgan, dohiyona □ Vision <em>f </em></li>
 </ol>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</
  """;
 
 class AppDesc extends StatelessWidget {
@@ -70,6 +71,7 @@ class AppDesc extends StatelessWidget {
                   height: 20,
                 ),
                 Text('LUG’ATDAN FOYDALANISH UCHUN KO’RSATMALAR',
+                    textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.bodyText1.copyWith(
                           fontSize: 15,
                         )),
